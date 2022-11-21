@@ -19,11 +19,10 @@ ui <- fluidPage(
     ),
     # Define what is going on the main panel 
     mainPanel(
-      # Feature 3: Use verbatimTextOutput to output an interactive summary table which 
-      # which corresponds to the selected dataset 
+      # Feature 3: Use verbatimTextOutput to output an interactive summary table 
+      # which corresponds to the selected dataset. # Use tableOutput to ensure
+      # there is an output table for the selected dataset  
       verbatimTextOutput("summary"),
-      # Use tableOutput to ensure there is an output table for the selected 
-      # dataset  
       tableOutput("view")
     )
   )
