@@ -1,0 +1,14 @@
+name: Assignment-B-4-Dilan330
+title: Assignment-B-4-Dilan330
+username:
+account: dilan330
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7800136
+bundleId: 6584194
+url: https://dilan330.shinyapps.io/Assignment-B-4-Dilan330/
+when: 1670023425.49986
+lastSyncTime: 1670023425.49988
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: App.R

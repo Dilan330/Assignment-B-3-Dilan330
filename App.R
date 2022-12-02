@@ -2,18 +2,18 @@ library(shiny)
 library(tidyverse)
 
 ui <- fluidPage(
-    titlePanel("R Built-in Data Sets"),
-    sidebarLayout(
-      # Define what is going on the side bar panel 
-        sidebarPanel(
+  titlePanel("R Built-in Data Sets"),
+  sidebarLayout(
+    # Define what is going on the side bar panel 
+    sidebarPanel(
       # Feature 1: Use selectInput and choices to allow user input to select 
-          # which dataset they would like to look at 
+      # which dataset they would like to look at 
       selectInput(inputId = "dataset",
                   label = "Please select a dataset:",
                   choices = c("mtcars", "iris", "ToothGrowth", "PlantGrowth", "USArrests")),
       # Feature 2: use numericInput to allow user input to select how many 
       # observations are being shown 
-            numericInput(inputId = "obs",
+      numericInput(inputId = "obs",
                    label = "Number of observations displayed:",
                    value = 5)
     ),
